@@ -264,10 +264,6 @@ import requests
 
 rut_filter = "CL0117023268"
 
-# obtener el access token
-url_access_token = 'https://gateway-generar-token-api-salesforce-1xsgrk4s.uc.gateway.dev/getToken?key=AIzaSyAiFzkD8B6AE4zS__BVwugV_7tWWsrMSKU'
-respuesta = requests.get(url_access_token)
-
 if respuesta.status_code != 200:
     respuesta.raise_for_status() # se va automáticamente al except si la respuesta no es 200
 

@@ -1,3 +1,3 @@
 git add .
-git commit -m "corrección y mejoras"
+git commit -m "correccion y mejoras"
 git push
